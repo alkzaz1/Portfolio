@@ -8,7 +8,7 @@ body{
     padding: 0;      
     box-sizing: border-box;
 }
-
+    /* <!-- بداية الشريط العلوي --> */
 header{
     background-color: #f0f0f0;
     width: 70%;
@@ -39,8 +39,8 @@ header{
 .navigation a:hover{
     color: #601cfc;
 }
-
-
+/* <!-- نهاية الشريط العلوي --> */
+/* <!-- بدايةالسيكشن الرئيسي --> */
 .main{
     min-height: calc(100vh - 200px); 
     padding: 100px 200px;
@@ -104,7 +104,8 @@ header{
 .icons a:hover{
     color:#0a49f6;
 }
-
+/* <!-- نهايةالسيكشن الرئيسي --> */
+/* <!-- بداية سيكشن الخدمات --> */
 .title{
     display: flex;
     justify-content: center;
@@ -317,7 +318,7 @@ header{
 }
 
 
-
+/* بداية ابعاد الفون */
 @media (max-width: 1023px){
    .content-skills img{
     display: none;
@@ -375,4 +376,59 @@ header{
         }
            
         } 
-        
+
+    /* /////////////////////////// */
+@media (max-width: 400px){
+    header{
+    font-size:0.7em;
+    }
+
+    .home{
+        font-size: 0.9em;
+    }
+
+        .content .card {
+            width: 16.25em;
+        }
+
+    .card .info{
+        font-size: 0.9em;
+    }
+
+    .content .icon{
+        font-size: 4.1em;
+    }
+
+    .project-card{
+        width: 20em;
+    }
+
+    }
+
+
+@media (max-width: 360px){
+    header{
+    font-size: 0.6em;
+    }
+
+        .home{
+            font-size: 0.8em;
+        }
+    
+            .content .card {
+                width: 14.25em;
+            }
+    
+        .card .info{
+            font-size: 0.8em;
+        }
+    
+        .content .icon{
+            font-size: 3.8em;
+        }
+    
+        .project-card{
+            width: 18em;
+        }
+    
+}
