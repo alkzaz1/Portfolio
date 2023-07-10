@@ -196,9 +196,18 @@ header{
 }
 
 .project-category{
-    font-size: 0.8em;
+    font-size: 0.9em;
+    letter-spacing: 0.2px;
     color: #000;
 }
+
+.project-category-ar{
+    font-size: 0.9em;
+    color: #000;
+    direction: rtl;
+    font-weight: 500;
+}
+
 .project-title{
     display: flex;
     justify-content: space-between;
@@ -374,7 +383,8 @@ header{
         .content .card{
             padding: 25px;
         }
-           
+          
+    
         } 
 
     /* /////////////////////////// */
@@ -403,6 +413,10 @@ header{
         width: 20em;
     }
 
+    .project-category-ar{
+        font-size: 0.8em;
+    }
+
     }
 
 
@@ -429,6 +443,14 @@ header{
     
         .project-card{
             width: 18em;
+        }
+
+        .project-category-ar{
+            font-size: 0.8em;
+        }
+
+        .college{
+            font-size: 0.9em;
         }
     
 }
